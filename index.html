@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+        <div class="calculator">
+            <input class="text" name="screen" id="screen">
+            <div class="row">
+                <button id="clear" value="clear"><i class="fa-solid fa-c"></i></button>
+                <button id="backspace" value="backspace"><i class="fa-solid fa-delete-left"></i></button>
+                <button id="percent" value="%"><i class="fa-solid fa-percent"></i></button>
+                <button id="divide" value="/"><i class="fa-solid fa-divide"></i></button>
+            </div>
+            <div class="row">
+                <button value="7">7</button>
+                <button value="8">8</button>
+                <button value="9">9</button>
+                <button id="multiply" value="*"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="row">
+                <button value="4">4</button>
+                <button value="5">5</button>
+                <button value="6">6</button>
+                <button id="minus" value="-"><i class="fa-solid fa-minus"></i></button>
+            </div>
+            <div class="row">
+                <button value="1">1</button>
+                <button value="2">2</button>
+                <button value="3">3</button>
+                <button id="plus" value="+"><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <div class="row">
+                <button value="00">00</button>
+                <button value="0">0</button>
+                <button id="point" value=".">.</button>
+                <button id="equal-to" value="="><i class="fa-solid fa-equals"></i></button>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+</body>
+
+</html>
